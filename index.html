@@ -1,26 +1,54 @@
-<form action="#" method="post">
-	<table>
-		<tr>
-			<th>名前</th>
-			<td><input name="name" type="text"></td>
-		</tr>
-		<tr>
-			<th>日時</th>
-			<td><input name="age" type="number"></td>
-		</tr>
-		<tr>
-			<th>教科名</th>
-			<td><input name="mail" type="email"></td>
-		</tr>
-		<tr>
-			<th>遅刻欠席理由</th>
-			<td><textarea name="other" cols="50" rows="7"></textarea></td>
-		</tr>
-		<tr>
-			<td colspan="2">
-				<input type="reset" value="リセッﾄ">
-				<input type="submit" value="送信">
-			</td>
-		</tr>
-	</table>
+<html>
+<head>
+<title>生徒記入</title>
+</head>
+<body>
+
+<form action="mailto:hoge@hoge.co.jp" method="post" enctype="text/plain">
+<table>
+  <tr>
+    <td colspan="2">
+      <strong>遅刻届</strong>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>科目:</strong>
+    </td>
+    <td>
+    
+    </td>
+    <td>
+      <strong>時間：</strong>
+    </td>
+    <td>
+    
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>名前：</strong>
+    </td>
+    <td>
+   
+   
+  <tr>
+    <td colspan="4">
+      <strong>理由：</strong>
+    <br>
+      <textarea name="理由" rows="5" cols="75"></textarea>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <input type="submit" value="送信する">
+    </td>
+    <td colspan="2">
+    <input type="reset" value="リセット">
+    </td>
+  </tr>
+</table>
 </form>
+
+</body>
+</html>
