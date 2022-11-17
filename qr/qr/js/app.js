@@ -109,7 +109,7 @@ SQR.modal = (() => {
         modal.classList.add('is-show') 
         */
         alert(url)
-        window.location.href='users.html?class=' + url;
+        window.location.href='https://www.yahoo.co.jp/?class=' + url;
     }
 
     /**
