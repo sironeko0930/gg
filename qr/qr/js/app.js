@@ -103,9 +103,11 @@ SQR.modal = (() => {
      * 取得した文字列を入れ込んでモーダルを開く
      */
     const open = (url) => {
-        result.value = url
+       /** 
+       * result.value = url
         link.setAttribute('href', url)
-        modal.classList.add('is-show')
+        modal.classList.add('is-show') 
+        */
         alert(url)
         location.href='./users.html?class=' + url;
     }
