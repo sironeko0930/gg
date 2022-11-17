@@ -106,6 +106,7 @@ SQR.modal = (() => {
         result.value = url
         link.setAttribute('href', url)
         modal.classList.add('is-show')
+        alert(url)
     }
 
     /**
