@@ -107,6 +107,7 @@ SQR.modal = (() => {
         link.setAttribute('href', url)
         modal.classList.add('is-show')
         alert(url)
+        location.href='./users.html?class=' + url;
     }
 
     /**
