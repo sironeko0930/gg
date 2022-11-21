@@ -112,6 +112,12 @@ SQR.modal = (() => {
         var str = url;
         //「-」で区切って分割する
         var result = str.split('&');
+        for (var i=0; i<stockColors.length;i++){
+        stockList += '<li>'+ stockColors[i] + '色は、在庫があります。</li>';　// = ではなく += を使う
+
+        }
+ 
+　　　　document.getElementById('stock').innerHTML = stockList;
         alert( result );
         window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html?class=' + url ;  
     }
