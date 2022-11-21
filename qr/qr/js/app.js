@@ -111,17 +111,7 @@ SQR.modal = (() => {
         alert(url)
        
         
-        var stockColors = [url];
-
-var stockList = [];　//ここが配列になる
-for (var i=0; i<stockColors.length; i++){
-  stockList.push('<li>'+ stockColors[i]); //ここにpush()がくる
-}
-
-document.getElementById('stock').innerHTML = stockList.join(&); //innerHTMLへ入れる時にjoin()で文字列にする
      
-                                                            
-                                                            
 window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html?class=' + url ;  
     }
 
