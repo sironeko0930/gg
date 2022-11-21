@@ -109,10 +109,7 @@ SQR.modal = (() => {
         modal.classList.add('is-show') 
         */
         alert(url)
-       
-        
-     
-window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html?class=' + url ;  
+        window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html?class=' + url ;  
     }
 
     /**
