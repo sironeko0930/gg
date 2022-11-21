@@ -108,7 +108,11 @@ SQR.modal = (() => {
         link.setAttribute('href', url)
         modal.classList.add('is-show') 
         */
-        alert(url)
+      
+        var str = url;
+        //「-」で区切って分割する
+        var result = str.split('&');
+        alert( result );
         window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html?class=' + url ;  
     }
 
