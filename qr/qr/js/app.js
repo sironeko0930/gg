@@ -112,12 +112,7 @@ SQR.modal = (() => {
         var str = url;
         //「-」で区切って分割する
         var result = str.split('&');
-        for (var i=0; i< str.length;i++){
-        result += '<li>'+ result[i] + '色は、在庫があります。</li>';　// = ではなく += を使う
-
-        }
- 
-　　　　document.getElementById('result').innerHTML = result;
+        
         alert( result );
         window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html?class=' + url ;  
     }
