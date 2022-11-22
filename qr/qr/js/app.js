@@ -110,6 +110,9 @@ SQR.modal = (() => {
         */
       
         var str = url;
+        
+        
+        
         function setTextToElement(){
         var list= url
         var result = list.split('&');
@@ -126,7 +129,7 @@ SQR.modal = (() => {
         element.innerHTML = s;
     }
     function setTextElement(){
-        var list="NF1&卒業制作&2022年11月15日14:41:6"
+      var list= url
         var result = list.split('&');
 
         var rr=result
@@ -141,7 +144,7 @@ SQR.modal = (() => {
         element.innerHTML = s;
     }
     function setElement(){
-        var list="NF1&卒業制作&2022年11月15日14:41:6"
+        var list= url
         var result = list.split('&');
 
         var rr=result
