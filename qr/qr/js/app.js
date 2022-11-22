@@ -113,7 +113,14 @@ SQR.modal = (() => {
         //「-」で区切って分割する
         var result = str.split('&');
         
-        alert( result );
+        
+        result.split(',').forEach( function( value ) {
+ 
+   
+
+        
+        alert( value );
+        })
         window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html?class=' + url ;  
     }
 
