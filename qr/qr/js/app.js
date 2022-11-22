@@ -110,8 +110,53 @@ SQR.modal = (() => {
         */
       
         var str = url;
-        //「-」で区切って分割する
-        var result = str.split('&');
+        function setTextToElement(){
+        var list= url
+        var result = list.split('&');
+
+        var rr=result
+
+        ko=rr[0]
+        ki=rr[1]
+        ku=rr[2]
+
+        let element = document.getElementById('shopinfo');
+        let s = ki;
+  
+        element.innerHTML = s;
+    }
+    function setTextElement(){
+        var list="NF1&卒業制作&2022年11月15日14:41:6"
+        var result = list.split('&');
+
+        var rr=result
+
+        ko=rr[0]
+        ki=rr[1]
+        ku=rr[2]
+
+        let element = document.getElementById('shopinf');
+        let s = ko;
+  
+        element.innerHTML = s;
+    }
+    function setElement(){
+        var list="NF1&卒業制作&2022年11月15日14:41:6"
+        var result = list.split('&');
+
+        var rr=result
+
+        ko=rr[0]
+        ki=rr[1]
+        ku=rr[2]
+
+        let element = document.getElementById('shopin');
+        let s = ku;
+  
+        element.innerHTML = s;
+    }
+        
+        
         
         
         
