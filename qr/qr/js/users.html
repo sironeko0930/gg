@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<form action="./app.js" method="get" enctype="text/plain">
+<form action="./app.js" method="GET" enctype="text/plain">
 <table>
   <tr>
     <td colspan="2">
@@ -41,10 +41,12 @@
     <td>
       <strong>クラス：</strong>
     </td>
-    
+    <?php
+    $input_string = $_GET['text1'];
+print('入力した値は'.$input_data.'<br>');
+?>
     <td>
-<div id ="shopinf">
-  <button onClick="setTextElement();">表示</button>
+
     </td>
     <td>
    
