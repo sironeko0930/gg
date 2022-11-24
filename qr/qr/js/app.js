@@ -159,7 +159,16 @@ SQR.modal = (() => {
         element.innerHTML = s;
     }
         
-        
+        var data_url = new XMLHttpRequest();
+ 
+data_url.open('GET', 'https://sironeko0930.github.io/gg/qr/qr/js/users.html');
+data_url.send();
+ 
+data_url.onreadystatechange = function() {
+    if(data_url.readyState === 4 && data_url.status === 200) {
+       console.log(data_url.responseText);
+    }
+}
     
        
         alert( result );
