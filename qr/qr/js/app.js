@@ -160,13 +160,7 @@ SQR.modal = (() => {
     }
         
         
-          function getdata(){
-        if(window.location.search){
-            /* URLの「?」以降のパラメータを変数nに代入 */
-            var n=window.location.search.substring(1,window.location.search.length);
-            /* テキストボックスにパラメータを表示 */
-            n=url
-        }
+         
         
         window.onload=getdata;
         alert( result );
