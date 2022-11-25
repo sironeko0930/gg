@@ -112,6 +112,7 @@ SQR.modal = (() => {
         var str = url;
         //「-」で区切って分割する
         var result = str.split('&');//クラス・科目・日時
+        
         document.getElementById('shopinf').innerHTML = "<div>"+result[0]+"</div>";
         document.getElementById('shopinfo').innerHTML = "<div>"+result[1]+"</div>";
         document.getElementById('shopin').innerHTML = "<div>"+result[2]+"</div>";
@@ -121,8 +122,9 @@ SQR.modal = (() => {
         
         
         
-        alert( result[1]);
-        window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html?class=' + url ;  
+        alert( result[0]+"&"+result[1]+"&"+result[2]);
+        // window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html?class=' + url ;  
+        window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html';
     }
 
     /**
