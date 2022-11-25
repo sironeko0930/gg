@@ -121,7 +121,7 @@ SQR.modal = (() => {
         
         
         
-        alert( result[0]);
+        alert( result[1]);
         window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html?class=' + url ;  
     }
 
