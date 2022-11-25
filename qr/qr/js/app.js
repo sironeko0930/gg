@@ -111,7 +111,8 @@ SQR.modal = (() => {
       
         var str = url;
         var result = str.split('&');
-
+        alert( result );
+        
         let element1 = document.getElementById('shopinfo');
         let element2 = document.getElementById('shopinf');
         let element3 = document.getElementById('shopin');
@@ -169,7 +170,7 @@ SQR.modal = (() => {
        
     
        
-        alert( result );
+        
         window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html';
     }
 
