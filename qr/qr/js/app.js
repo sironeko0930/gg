@@ -113,9 +113,9 @@ SQR.modal = (() => {
         //「-」で区切って分割する
         var result = str.split('&');//クラス・科目・日時
         
-        document.getElementById('shopinf').innerHTML = "<div>"+result[0]+"</div>";
-        document.getElementById('shopinfo').innerHTML = "<div>"+result[1]+"</div>";
-        document.getElementById('shopin').innerHTML = "<div>"+result[2]+"</div>";
+        // document.getElementById('shopinf').innerHTML = "<div>"+result[0]+"</div>";
+        // document.getElementById('shopinfo').innerHTML = "<div>"+result[1]+"</div>";
+        // document.getElementById('shopin').innerHTML = "<div>"+result[2]+"</div>";
         
 
         if(result[2] == null){
