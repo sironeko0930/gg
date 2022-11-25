@@ -113,24 +113,12 @@ SQR.modal = (() => {
         //「-」で区切って分割する
         var result = str.split('&');//クラス&科目&日時
         alert(result);
-        var classHTML=document.getElementById('class');
-        var courseHTML=document.getElementById('course');
-        var timeHTML=document.getElementById('time');
+        
         if(classHTML == null || courseHTML == null || timeHTML == null){
             alert("null");
         }
-        
-
-        classHTML.innerHTML = "<div>"+result[0]+"</div>";
-       
-        courseHTML.innerHTML ="<div>"+result[1]+"</div>";
-        
-        timeHTML.innerHTML = "<div>"+result[2]+"</div>";
-        
-        
-        
-        
-        window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html?class=' + url ;  
+        window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html?class=' + result[0]
+        + "&course=" +result[1]+"&time="+result[2];  
     }
 
     /**
