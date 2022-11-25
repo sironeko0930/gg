@@ -112,14 +112,14 @@ SQR.modal = (() => {
         var str = url;
         var result = str.split('&');
         alert( result );
-        
-        let element1 = document.getElementById('shopinfo');
-        let element2 = document.getElementById('shopinf');
-        let element3 = document.getElementById('shopin');
+
+        // let element1 = document.getElementById('shopinfo');
+        // let element2 = document.getElementById('shopinf');
+        // let element3 = document.getElementById('shopin');
  
-        element1.innerHTML = result[0];
-        element2.innerHTML = result[1];
-        element3.innerHTML = result[2];
+        // element1.innerHTML = result[0];
+        // element2.innerHTML = result[1];
+        // element3.innerHTML = result[2];
         
 //         function setTextToElement(){
 //         var list= url
