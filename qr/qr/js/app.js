@@ -116,9 +116,9 @@ SQR.modal = (() => {
         let element2 = document.getElementById('shopinf');
         let element3 = document.getElementById('shopin');
  
-        element1.innerText = result[0];
-        element2.innerText = result[1];
-        element3.innerText = result[2];
+        element1.innerHTML = result[0];
+        element2.innerHTML = result[1];
+        element3.innerHTML = result[2];
         
 //         function setTextToElement(){
 //         var list= url
@@ -169,7 +169,7 @@ SQR.modal = (() => {
        
     
        
-        // alert( result[0]+","+ result[1]+","+result[2]);
+        alert( result );
         window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html';
     }
 
