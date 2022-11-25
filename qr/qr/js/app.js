@@ -118,11 +118,8 @@ SQR.modal = (() => {
         // document.getElementById('shopin').innerHTML = "<div>"+result[2]+"</div>";
         
 
-        if(result[2] == null){
-            alert("aaa");
-        }else{
-            alert(result[2]);
-        }
+       alert(result);
+        
         
         
         
