@@ -5,6 +5,7 @@ SQR.reader = (() => {
      * getUserMedia()に非対応の場合は非対応の表示をする
      */
     const showUnsuportedScreen = () => {
+        alert("test");
         document.querySelector('#js-unsupported').classList.add('is-show')
     }
     if (!navigator.mediaDevices) {
