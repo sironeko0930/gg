@@ -112,10 +112,18 @@ SQR.modal = (() => {
         var str = url;
         //「-」で区切って分割する
         var result = str.split('&');//クラス&科目&日時
-        alert( result);
-        document.getElementById('class').innerHTML = "<div>"+result[0]+"</div>";
-        document.getElementById('course').innerHTML = "<div>"+result[1]+"</div>";
-        document.getElementById('time').innerHTML = "<div>"+result[2]+"</div>";
+        alert(result);
+        var classHTML=document.getElementById('class');
+        var courseHTML=document.getElementById('course');
+        var timeHTML=document.getElementById('time');
+
+
+
+        classHTML.innerHTML = "<div>"+result[0]+"</div>";
+       
+        courseHTML.innerHTML ="<div>"+result[1]+"</div>";
+        
+        timeHTML.innerHTML = "<div>"+result[2]+"</div>";
         
         
         
