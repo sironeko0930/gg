@@ -116,8 +116,10 @@ SQR.modal = (() => {
         var classHTML=document.getElementById('class');
         var courseHTML=document.getElementById('course');
         var timeHTML=document.getElementById('time');
-
-
+        if(classHTML == null || courseHTML == null || timeHTML == null){
+            alert("null");
+        }
+        
 
         classHTML.innerHTML = "<div>"+result[0]+"</div>";
        
