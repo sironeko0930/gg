@@ -114,9 +114,7 @@ SQR.modal = (() => {
         var result = str.split('&');//クラス&科目&日時
         alert(result);
         
-        if(classHTML == null || courseHTML == null || timeHTML == null){
-            alert("null");
-        }
+        
         window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html?class=' + result[0]
         + "&course=" +result[1]+"&time="+result[2];  
     }
