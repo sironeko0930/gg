@@ -1,18 +1,43 @@
-#dropdownMenuButton1{
+.button{
  
   
 
   
-display: inline-block;
-  padding: 0.8em 3em;
-  background-color: #e3364a; /* 背景色 */
-  box-shadow: 0 5px 0 #ca1c30; /* 影の太さ・色 */
-  border-radius: 60px;
+display: block;
+  position: relative;
+  background: #83c11e;
+  width: 24rem;
+  padding: 1.5rem;
+  border-radius: .6rem;
   color: #fff;
-  cursor: pointer;
-  text-decoration: none; /* 文字の下線を消す */	
-	
-  font-size: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  transition: .5s;
+}
+
+.button:before {
+  content: "";
+  position: absolute;
+  top: 46%;
+  right: 12px;
+  width: 10px;
+  height: 2px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+.button:after {
+  content: "";
+  position: absolute;
+  top: 54%;
+  right: 12px;
+  width: 10px;
+  height: 2px;
+  background: #fff;
+  transform: rotate(-45deg);
+}
 }
 .m-form-item-textarea textarea {
     height: 300px;
