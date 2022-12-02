@@ -1,43 +1,12 @@
 #dropdownMenuButton1{
- 
-  
-
-  
-display: block;
-  position: relative;
-  background: #83c11e;
-  width: 24rem;
-  padding: 1.5rem;
-  border-radius: .6rem;
-  color: #fff;
+ clear: both;
   text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  letter-spacing: .1rem;
-  transition: .5s;
-}
-
-#dropdownMenuButton1:before {
-  content: "";
-  position: absolute;
-  top: 46%;
-  right: 12px;
-  width: 10px;
-  height: 2px;
-  background: #fff;
-  transform: rotate(45deg);
-}
-
-#dropdownMenuButton1:after {
-  content: "";
-  position: absolute;
-  top: 54%;
-  right: 12px;
-  width: 10px;
-  height: 2px;
-  background: #fff;
-  transform: rotate(-45deg);
-}
+  margin: 0 auto;
+  max-width: 25%;
+  display: table;
+  width: 100%;
+  
+  font-size: 100%;
 }
 .m-form-item-textarea textarea {
     height: 300px;
