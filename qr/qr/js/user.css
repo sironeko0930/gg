@@ -1,11 +1,17 @@
 #dropdownMenuButton1{
- clear: both;
-  text-align: center;
-  margin: 0 auto;
-  max-width: 25%;
-  display: table;
+ 
+  
   width: 100%;
   
+display: inline-block;
+  padding: 0.8em 3em;
+  background-color: #e3364a; /* 背景色 */
+  box-shadow: 0 5px 0 #ca1c30; /* 影の太さ・色 */
+  border-radius: 60px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none; /* 文字の下線を消す */	
+	
   font-size: 100%;
 }
 .m-form-item-textarea textarea {
