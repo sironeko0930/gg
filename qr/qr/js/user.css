@@ -1,4 +1,4 @@
-.button{
+#dropdownMenuButton1{
  
   
 
@@ -17,7 +17,7 @@ display: block;
   transition: .5s;
 }
 
-.button:before {
+#dropdownMenuButton1:before {
   content: "";
   position: absolute;
   top: 46%;
@@ -28,7 +28,7 @@ display: block;
   transform: rotate(45deg);
 }
 
-.button:after {
+#dropdownMenuButton1:after {
   content: "";
   position: absolute;
   top: 54%;
