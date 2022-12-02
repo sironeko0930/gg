@@ -5,8 +5,8 @@
   max-width: 25%;
   display: table;
   width: 100%;
- 
-  font-size: 200%;
+  
+  font-size: 100%;
 }
 .m-form-item-textarea textarea {
     height: 300px;
@@ -28,4 +28,13 @@
 .m-form-textarea:focus {
     outline: 0;
     box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+}
+* {
+	float: none;
+	position: static;
+}
+ 
+img {
+	max-width: 100%;
+	height: auto;
 }
