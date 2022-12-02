@@ -7,6 +7,15 @@
   width: 100%;
   
   font-size: 100%;
+
+  padding: 0.8em 3em;
+  background-color: #e3364a; /* 背景色 */
+  box-shadow: 0 5px 0 #ca1c30; /* 影の太さ・色 */
+  border-radius: 60px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none; /* 文字の下線を消す */	
+	
 }
 .m-form-item-textarea textarea {
     height: 300px;
