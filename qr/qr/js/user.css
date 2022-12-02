@@ -4,7 +4,7 @@
   margin: 0 auto;
   max-width: 25%;
   display: table;
-  width: 150%;
+  width: 100%;
   
   font-size: 100%;
 font-weight: bold;
@@ -12,7 +12,7 @@ font-weight: bold;
   position: relative;
   background: #83c11e;
   
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: .6rem;
   color: #fff;
   text-align: center;
