@@ -8,13 +8,18 @@
   
   font-size: 100%;
 
-  padding: 0.8em 3em;
-  background-color: #e3364a; /* 背景色 */
-  box-shadow: 0 5px 0 #ca1c30; /* 影の太さ・色 */
-  border-radius: 60px;
+    display: block;
+  position: relative;
+  background: #83c11e;
+  
+  padding: 1.5rem;
+  border-radius: .6rem;
   color: #fff;
-  cursor: pointer;
-  text-decoration: none; /* 文字の下線を消す */	
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  transition: .5s;
 	
 }
 .m-form-item-textarea textarea {
