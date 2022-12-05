@@ -5,5 +5,6 @@ window.onload = function(){
 document.getElementById('class').innerHTML = "<div>"+params.get('class')+"</div>";
 document.getElementById('course').innerHTML = "<div>"+params.get('course')+"</div>";
 document.getElementById('time').innerHTML = "<div>"+params.get('time')+"</div>";
+ document.getElementById('jigen').innerHTML = "<div>"+params.get('jigen')+"</div>";
 
 }
