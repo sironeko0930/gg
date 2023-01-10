@@ -28,8 +28,8 @@ $('#sousin').on('click', function() {
 
    let firestoreRef = db.collection("report").doc("NV1").collection("01").doc("NV100A");
 // let firestoreRef = db.collection("report").doc(params.get('class')).collection(no).doc(params.get('course'));
-let firestoreFieldName = params.get('time');
-// let firestoreFieldName = 202212231;
+// let firestoreFieldName = params.get('time');
+let firestoreFieldName = 202212231;
   let updateObject = {}
   updateObject[firestoreFieldName] = [ta]
   console.log(firestoreRef)
