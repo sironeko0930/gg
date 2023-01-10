@@ -111,12 +111,12 @@ SQR.modal = (() => {
       
         var str = url;
         //「-」で区切って分割する
-        var result = str.split('&');//クラス&科目&日時
+        var result = str.split('&');//クラス&科目&日時&何限目か
         alert(result);
         
         
         window.location.href='https://sironeko0930.github.io/gg/qr/qr/js/users.html?class=' + result[0]
-        + "&course=" +result[1]+"&time="+result[2];  
+        + "&course=" +result[1]+"&time="+result[2]"&count="+result[3];  
     }
 
     /**
